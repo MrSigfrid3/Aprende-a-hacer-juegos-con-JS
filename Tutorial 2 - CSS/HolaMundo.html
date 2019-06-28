@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+   <style>
+	h1
+	{
+	   font-family: Georgia, "Times New Roman", serif;
+	   font-size: 40px;
+	   color: #7924ff;
+	   font-style: italic;
+	   font-weight: bold;
+	   clear: left;
+	}
+
+	h2
+	{
+	   font-family: Georgia, "Times New Roman", serif;
+	   font-size: 20px;
+	}
+
+	p
+	{
+	   font-family: "Lucida Console", serif;
+	   font-size: 12px;
+	}
+
+	li
+	{
+	  list-style-type: square; 
+	}
+
+	a
+	{
+	   color: green;
+	   text-decoration: none;
+	}
+
+	a:hover
+	{
+	   background-color: blue;
+	   color: red;
+	}
+
+	img
+	{
+	   width: 250px;
+	   height: auto;
+	   border: 10px dotted red;
+	   padding-top: 15px;
+	   padding-bottom: 5px;
+	   padding-left: 23px;
+	   padding-right: 11px;
+	}
+
+	#stage
+	{
+ 	   display: block;
+	   position: relative;
+	   width: 500px;
+	   height: 500px;
+	   border: 5px dotted blue;
+	}
+
+	#mounstrito1
+	{
+	   position: absolute;
+	   top: 100px;
+	   left: 300px;
+	   background-image: url("mounstrito_azul.png");
+	}
+
+	#mounstrito2
+	{
+	   background-image: url("mounstrito_rojo.png");
+	}
+
+	#mounstrito3
+	{
+	   background-image: url("mounstrito_amarillo.png");
+	}
+
+	.mounstro
+	{
+	   display: block;
+	   width: 64px;
+	   height: 64px;
+	   float: left;
+	   margin-top: 20px;
+	   margin-left: 50px;
+	}
+
+   </style>
+   <meta http-equiv="content-type" content="text/html; charset=iso8859-1">
+   <title>Pequeña página</title>
+</head>
+<body>
+   <h1>Hola mundo XD</h1>
+   <h2>Subtítulo</h2>
+   <h3>Subsub</h3>
+   <p><a name="texto1">Aquí podemos poner mucho texto</a></p>
+   <p><em>Aquí podemos poner mucho texto</em></p>
+   <p><strong>Aquí podemos poner mucho texto</strong></p>
+
+   <a href="http:www.google.com" target="_blank"><img src="jib083.jpg" width="800" height="800"></a>
+
+   <!--Lo de abajo son las armas-->
+   <ul>
+	<li><a href="http:www.google.com" target="_blank">Elemento 1</a></li>
+	<li>Elemento 2</li>
+	<li>Elemento 3</li>
+	<li><a href="#texto1">Elemento 4</a></li>
+   </ul>
+
+   <div id="stage">
+	<div class="mounstro" id="mounstrito1"></div>
+	<div class="mounstro" id="mounstrito2"></div>
+	<div class="mounstro" id="mounstrito3"></div>
+	<h1>Los Mounstro</h1>
+
+   </div>
+   
+
+</body>
