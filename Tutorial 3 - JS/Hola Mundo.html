@@ -1,0 +1,84 @@
+<!doctype html>
+<title>Prueba de JS</title>
+<script>
+   
+
+   var number1 = 4;
+   var number2 = 10; 
+   var total = number1 + number2;
+
+   number1 = 42;
+
+   total = number1 + number2;
+
+   var text1 = "kakaroto";
+   var text2 = "venció a Vegetta";
+
+   text1 = "Bulma";
+   var text3 = text1 + " " + text2;
+   
+   
+
+   var bool1 = false;
+   var bool2 = true;
+
+   //la suma total:
+
+   /*esta parte
+   debe de cambiarse
+   para hacer cosas mas complicadas*/
+
+   
+
+
+   if(bool1 === true || bool2 === false || number1 === 100)
+   {
+ 	console.log("esto esta funcionando");
+   }
+   else
+   {
+	console.log("Yo no se nada");
+   }
+
+   switch(text1)
+   {
+	case "kakaroto":
+	console.log("El se llama Kakaroto");
+	break;
+
+	case "Krilin":
+	console.log("Krilin siempre muere");
+	break;
+
+	case "Milk":
+	console.log("Ay mama");
+	break;
+
+	default:
+	console.log("Saber que pasó");
+   }
+
+   add();
+   showText("Esto es String", 42);
+
+  
+   function add()
+   {
+	var newTotal = number1 + number2;
+	console.log(newTotal);
+   }
+
+   function showText(textXXX, numberX)
+   {
+	console.log(textXXX, numberX, number1, number2, bool1);
+   }
+
+
+   
+   
+
+  
+
+
+
+</script>
